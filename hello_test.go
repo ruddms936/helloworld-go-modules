@@ -6,7 +6,7 @@ import (
 )
 
 func TestHello(t *testing.T) {
-	want := "Hello, world"
+	want := "안녕, 세상."
 	fmt.Println(want)
 	if got := Hello(); got != want {
 		t.Errorf("Hello() = %q, want %q", got, want)
